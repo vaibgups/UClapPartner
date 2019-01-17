@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="your.service.com.partner">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".activities.PrimaryBusinessActivity" />
+        <activity android:name=".activities.ProfileActivity" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity android:name=".activities.GSTDetailsActivity" />
+        <activity android:name=".activities.EarnFreeCreditActivity" />
+        <activity android:name=".activities.AccountSettingActivity" />
+        <activity android:name=".activities.HowItWorkActivity" />
+        <activity android:name=".activities.TermsOfUseActivity" />
+        <activity android:name=".activities.ContactUsActivity" />
+        <activity android:name=".activities.FindFriendsActivity" />
+        <activity android:name=".activities.ChatActivity" />
+        <activity android:name=".activities.AdditionalBusinessActivity" />
+        <activity android:name=".activities.CreateAccountActivity" />
+
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activities.IdentityVerificationActivity" />
+        <activity android:name=".activities.AboutMeActivity" />
+        <activity android:name=".activities.UploadPhotoActivity" />
+        <activity android:name=".activities.AwardCertificateActivity" />
+        <activity android:name=".activities.AddServiceActivity" />
+        <activity android:name=".activities.SubmitReferenceActivity" />
+        <activity android:name=".activities.RechargeActivity" />
+        <activity android:name=".activities.ConfirmationActivity" />
+        <activity android:name=".activities.LeadDetailsActivity"></activity>
+    </application>
+
+</manifest>

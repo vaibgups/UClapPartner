@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">8yourService Partner</string>
+    <string name="login_button">Log In / Sign Up </string>
+    <string name="login_toolbar">Log In</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="create_account">Create a new account</string>
+    <string name="enter_otp_text">Enter the 4-digit code sent to your \n mobile number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">New</string>
+    <string name="title_dashboard">Ongoing</string>
+    <string name="title_notifications">Hired</string>
+    <string name="tittle_profile">Profile</string>
+    <string name="tittel_menu">Menu</string>
+
+    <string name="find">Find which of your friends are using\nUrbanClap</string>
+    <string name="find1">Checkout which of your contacts are\nregistered as a UrbanClap Partner.</string>
+    <string name="description">Dear UrbanClap Partner, We are sorry to inform\nyou that we have currently stopped taking profiles\nlove for new professionals as we have enough\npartners to serve current needs. MeanWhile,you\nshould complete your profile to get preference\nover others to go live we start talking new\nprofessionals</string>
+    <string name="ongoing_tabItem1"> All  </string>
+    <string name="ongoing_tabItem2"> Number shared </string>
+    <string name="ongoing_tabItem3"> CallBack  </string>
+    <string name="hired_tabItem1">All</string>
+    <string name="hired_tabItem2">Review Pending</string>
+    <string name="hired_tabItem3">Review Received</string>
+
+    <string name="ongoing_all">Ongoing leads will appear \n here</string>
+    <string name="ongoing_number_shared">You can find all leads where \n customer sharedtheir \n number.</string>
+    <string name="ongoing_callback">This shows leads for which \n you have set a callback \n reminder.</string>
+
+    <string name="hired_all">The jobs you have been \n hired for will appear here</string>
+    <string name="alertbox_message">You need to complete your profile\nand get it quality verified before you\nrecharge your wallet.</string>
+
+    <string name="no_internet">  Slow or no internet connection. Please\nrefresh annd check your internet settings.</string>
+    <string name="term_condition">Please read our updated<a href='https://www.urbanclap.com/terms'>Terms <br />
+        Conditions</a> before continuing.</string>
+    <string name="find_friend_cta">Find my friends!</string>
+    <string name="find_friend_description">Reach out to your friends who are doing great on UrbanClap and get tips on how to be successful on UrbanClap!</string>
+    <string name="find_friend_profile_help_text">Checkout which of your contacts are registered as a UrbanClap Partner.</string>
+    <string name="find_friend_title">Find your friends on UrbanClap</string>
+    <string name="find_friends">Find Friends on UrbanClap</string>
+    <string name="find_friends_permission_text_1">We will sync and store your contacts on our server to help you grow your network and invite them to UrbanClap</string>
+    <string name="find_your_friends">Find your friends on</string>
+    <string name="find_your_friends_help_text">Find which of your friends are using UrbanClap</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="long_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="option">*Optional</string>
+    <string name="signup">By signing up, you agree to UrbanClap <a href='https://www.urbanclap.com/terms'>Terms and<br />
+        Conditions</a> and <a href='https://www.urbanclap.com/terms'>Privacy policy </a> </string>
+
+    <string name="recahge_wallet">Recharge Wallet</string>
+    <string name="please_wait">Please wait</string>
+    <string name="transaction_wait">While transaction is proceed</string>
+
+    <string name="lead_details">Lead Details</string>
+
+    <string name="low_credit_balance_text">Low Credits Balance</string>
+    <string name="credit_balance_text">Credits Balance</string>
+</resources>

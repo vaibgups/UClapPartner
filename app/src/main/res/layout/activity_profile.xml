@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/youtube_view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 steps away from getting new customers:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+               android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:padding="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rl1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_centerVertical="true"
+                android:id="@+id/fig1"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complete Your Profile"
+                android:layout_toEndOf="@id/fig1"
+                android:id="@+id/heding1"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginStart="15dp"
+                android:padding="2dp"/>
+        </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add a profile photo, describe your service, enter\nyour information, add your service location and\nask for areview to create an awesome profile."
+                android:textAlignment="textStart"
+                android:layout_below="@id/rl2"
+                android:textSize="12dp"
+                android:id="@+id/des1"
+                android:layout_marginStart="38dp"
+                android:padding="2dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl3"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/des1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/fig2"
+                    android:layout_marginStart="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Profile Verification and Approval"
+                    android:layout_toEndOf="@id/fig2"
+                    android:id="@+id/heding2"
+                    android:textSize="18sp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="15dp"
+                    android:padding="2dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To offer good quality services to customers,\neach professional on the platform has to felfill\nminimum requirements of experience and skill.\nPlease provide as much information ass possible\nin your profile so we can take a decision."
+                android:textAlignment="textStart"
+                android:layout_below="@id/rl3"
+                android:textSize="12dp"
+                android:id="@+id/des2"
+                android:layout_marginStart="38dp"
+                android:padding="2dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/des2"
+                android:id="@+id/rl4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/fig3"
+                    android:layout_marginStart="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Credits and Respond to Leads"
+                    android:layout_toEndOf="@id/fig3"
+                    android:id="@+id/heding3"
+                    android:textSize="18sp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="15dp"
+                    android:padding="2dp"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UrbanClap is a paid platform. Once approved,you\nhave to buy a pack of credits which can be used\nto respond to customer leads that are suitable to you."
+                android:textAlignment="textStart"
+                android:layout_below="@id/rl4"
+                android:textSize="12dp"
+                android:layout_marginStart="38dp"
+                android:padding="2dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/create_profile"
+        android:text="Create your profile"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color1"
+        android:background="@drawable/background_color_without_line"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

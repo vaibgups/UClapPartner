@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/relative"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="126dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11dp" />
+
+        <View
+            android:layout_width="106dp"
+            android:layout_height="1.5dp"
+            android:id="@+id/view"
+            android:layout_below="@id/spinner"
+            android:background="@color/black_overlay"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toEndOf="@+id/view"
+            android:layout_below="@id/spinner"
+            android:background="@color/black_overlay"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/til1"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="8dp"
+            android:layout_toEndOf="@id/spinner">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:inputType="phone"
+                android:background="@android:color/transparent"
+                android:id="@+id/enter_otp"
+                android:hint="Mobile Number" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/til1"
+            android:id="@+id/til2"
+            android:paddingTop="8dp"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:inputType="textEmailAddress"
+                android:background="@android:color/transparent"
+                android:id="@+id/enter_email"
+                android:hint="Email Address" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="@color/black_overlay"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/til2"
+            android:id="@+id/getOtp"
+            android:layout_marginTop="30dp"
+            android:text="@string/get_otp"
+            android:textColor="@color/text_color1"
+            android:textSize="20sp"
+            android:padding="12dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/background_color_without_line"
+            android:textAllCaps="false" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

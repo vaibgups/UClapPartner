@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/item"
+    android:focusable="true"
+    android:padding="12dp"
+    android:orientation="vertical">
+    <!--
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_con tent"
+            android:id="@+id/radioGroup"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@id/id">
+            <RadioButton
+                android:id="@+id/radioButtonOfferSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ashjashjshjjashjdhsjahd"
+                android:paddingLeft="10dp"
+                android:layout_centerVertical="true" />
+        </RadioGroup>
+    -->
+    <!--
+        <TextView
+            android:layout_toEndOf="@+id/offer_select"
+            android:id="@+id/category_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"
+            android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:id="@+id/click"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/offer_select"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/offer_amount_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.4"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Save As a data "/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:id="@+id/id"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/click"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>
